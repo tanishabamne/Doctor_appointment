@@ -1,0 +1,70 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* css variables */
+:root{
+    --navbar-height:59px;
+}
+
+/* Navigaation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+
+}
+
+
+/* navigation bar: logo and image */
+#logo{
+
+     margin: 5px 20px;
+}
+
+
+#logo img{
+    height: 70px;
+    margin: 5px 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+/* navigation bar: list styling */
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content:"" ;
+    background-color: rgb(52, 216, 216);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* #navbar ul li a{
+    
+} */
+
+
+
+
+
+
+
+

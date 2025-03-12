@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>signup and login</title>
+  <link rel="stylesheet" href="signup..css">
+  <!-- ******************************  Google font link  ********************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+<!-- ******************* google font awsom link************************* -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- ******************* google font awsom link end************************* -->
+</head>
+
+
+<body>
+  <div class="container">
+ <div class="form_box">
+ <h1 id="title">Sign Up</h1>
+ <div class="underline"></div>
+ <form action="">
+
+     <div class="inpgroup">
+
+
+          <div class="inpfield">
+            <p id="nameerror" ></p>
+            <i class="fa-solid fa-user fa-beat-fade" style="color: #fbfdfdfd;"></i>
+           <input id="nameinput" type="text" placeholder=" Enter your name">
+          </div> <!--------------------end inpfield-------------------------->
+
+          <div class="inpfield">
+            <p id="emailerror" ></p>
+            <i class="fa-solid fa-at fa-bounce" style="color: #fbfdfdfd;"></i>
+            <input id="emailinput" type="email" placeholder=" Enter your e-mail">
+          </div> <!-----------------------end email field------------------------>
+
+          <div class="inpfield">
+            <p id="passworderror" ></p>
+            <i class="fa-solid fa-lock fa-beat-fade" style="color: #fbfdfdfd;"></i>
+            <input id="inputpassword" type="password" placeholder=" Enter strong password">
+          </div> <!--------------------------end password field-------------------------->
+
+          <div class="inpfield">
+            <p id="conpasserror" ></p>
+            <i class="fa-solid fa-lock fa-bounce" style="color: #fbfdfdfd;"></i>
+           <input id="confirmpassinput" type=" conform password" placeholder=" conform your password ">
+          </div> <!--------------------------end conform password field--------------------------->
+
+          <div  id="numberinput" class="inpfield">
+            <p id="numbererror" ></p>
+            <i class="fa-solid fa-phone fa-flip" style="color: #fbfdfdfd;"></i>
+           : <input id="numberinput" type="number" placeholder="  Enter your mobile no ">
+          </div> <!--------------------------end mobile no. field--------------------------->
+    <p class="click">Password Suggestions <a href="#">click here</a></p>
+
+     </div><!------------------------------- end inpgroup -------------------------->
+        <div class="btn-field">
+          <button id="signupbtn"  onclick="signup()" class="signUpBtn" >Sign up</button>
+          <button id="signinbtn" onclick="signin()" class="signInBtn">Sign in</button>
+
+     </div> <!----------------------------- end btn field -------------------------------->
+ </form><!-----------------------------------end form------------------------------------->
+ </div><!-----------------------------------end form_box---------------------------------->
+ </div><!---------------------------------- end container--------------------------------->
+  <script src="signup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script src="vanta.js"></script>
+</body>
+</html>
