@@ -1,15 +1,16 @@
-/* css reset */
+                                 /* css reset */
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* css variables */
+                              /* css variables */
 :root{
     --navbar-height:59px;
 }
 
-/* Navigaation Bar */
+                               /* Navigaation Bar */
 #navbar{
     display: flex;
     align-items: center;
@@ -17,21 +18,25 @@
 }
 
 
-/* navigation bar: logo and image */
+                             /* navigation bar: logo and image */
 #logo{
 
-     margin: 5px 20px;
+     /* margin:5px 20px; */
 }
 
 
 #logo img{
     height: 70px;
-    margin: 5px 20px;
+    /* margin:  20px; */
     border-radius: 50%;
     border: 2px solid black;
 }
 
-/* navigation bar: list styling */
+                              /* navigation bar: list styling */
+
+#navbar{
+    position: relative;
+}
 
 #navbar ul{
     display: flex;
@@ -39,9 +44,11 @@
 #navbar::before{
     content:"" ;
     background-color: rgb(52, 216, 216);
-    position: absolute;
-    height: 100%;
+    position:absolute;
+    height: 55%;
     width: 100%;
+    z-index: -2;
+    opacity: 0.4;
     
 }
 
@@ -57,14 +64,52 @@
     text-decoration: none;
 }
 
-/* #navbar ul li a{
+#navbar ul li a:hover{
+    display: block;
+    padding: 5px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    font-weight: 500;
+
+}
+                                      /* home section */
+
+#home{
+    display: flex;
     
+}
+.first{
+    
+}
+
+
+/* 
+.underline{
+    height: 3px;
+    width: 340px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 45px;
+}
+
+.btn{
+    padding: 9px;
+    font-weight: 700;
+}
+
+.second{
+    background-image: url(home_page_doctor.jpg);
+    background-repeat: no-repeat;
+   
 } */
 
 
-
-
-
-
-
+/* @media (max-width:768px){
+    #navbar{
+        position:absolute;
+    }
+} */
 
