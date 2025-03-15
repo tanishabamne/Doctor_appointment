@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doctor Appointment</title>
-    <!-- font awesom cdnlink -->
+  <!-- swipper.js cdn link start -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <!--swipper.js cdn link end -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <!-- font awesom cdn link start -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  awesom cdn link  end here--> 
+
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="swipper.css">
 
 
 </head>
@@ -18,10 +28,10 @@
                  <img src="doctor_logo.jpeg" alt="">
         </div>
         <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Contact US</a></li>
+                <li><a href=""> <i class="fa-solid fa-house /" style="color: #121f35;;"></i>   Home</a></li>
+                <li><a href=""> <i class="fa-solid fa-user" style="color: #121f35;"></i>   About</a></li>
+                <li><a href=""> <i class="fa-solid fa-stethoscope" style="color: #121f35;"></i>  Service</a></li>
+                <li><a href=""> <i class="fa-solid fa-phone-volume" style="color: #121f35;"></i>  Contact US</a></li>
         </ul>
     </nav>
     <!-- -----------------------------------Navbar end------------------------------------------------- -->
@@ -33,7 +43,7 @@
 
         <div class="first">   <!---------------first div------------>
         <h1 class=" animate___animated
-                    animate_flip
+                    animate_zoom
                     animate_infinite">
            Quality Doctors For Your Best Care</h1>
 
@@ -50,12 +60,46 @@
         <br>
         <button class="btn">Appointment</button></div> <!-------- end--------->
 
-
         <div class="second">
         </div>   <!--- second  div-->
-        
-    </div>
 
+     </div>
+
+<!-- swipper body  starts from here-->
+<div class="third"> 
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="cardiologist_image.jpg" alt="">  </div>
+          <h2>Cardiologist</h2>
+          <div class="swiper-slide"><img src="dentist_image.avif" alt="">  </div>
+        
+             <h2>Dentist</h2>          
+          <div class="swiper-slide"><img src="dermatologist_image.avif" alt="">  </div>
+             <h2>Dermatologist</h2>          
+          <div class="swiper-slide"><img src="orthopedic_image.avif" alt=""> </div>
+             <h2>Orthopedic</h2>
+          <div class="swiper-slide"><img src="pediatrician_image.avif" alt=""> </div>
+             <h2>Pediatrician</h2>
+          <div class="swiper-slide"><img src="psychologist_image.jpg" alt=""> </div>
+             <h2>Psychologist</h2>
+          <div class="swiper-slide"><img src="surgery_anaesthesia_image.webp" alt=""> </div>
+             <h2>Surgery Anaesthesia</h2>
+          <div class="swiper-slide"><img src="examining-patient.avif" alt=""> </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+</div> <!-- swipper body  ends here-->
+
+
+     <!-- swipper.js script link start -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <!-- swipper.js script link end -->
+      <script src="swipper.js"></script>
 
     <script src="script.js"></script>
 

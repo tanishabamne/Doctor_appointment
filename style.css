@@ -54,7 +54,7 @@
 
 #navbar ul li{
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 #navbar ul li a{
@@ -71,45 +71,85 @@
     text-decoration: none;
     color: black;
     background-color:white;
-    font-weight: 500;
-
+    font-weight: 450;
+    font-size: 20px;
 }
-                                      /* home section */
+
+#navbar i{
+    font-size: 20px;
+}
+
+
+                                      /* home section styling starts from here */
+
+                                      /*  section 1 */
 
 #home{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+   
 }
 .first{
+    height:550px;
+    width: 550px;
+    align-items: center;
+    margin-left: 60px;
+    position: relative;
+    padding: left px;
+    margin-top: 50px;
     
 }
 
+.second{
+    height: 550px;
+    width: 550px;
+    background: url(home_page_doctor.jpg);
+}
 
-/* 
+
+
 .underline{
     height: 3px;
-    width: 340px;
+    width: 455px;
     background-color: black;
     display: flex;
     align-items: center;
-    border-radius: 45px;
-}
+    border-radius: 45px;}
 
 .btn{
     padding: 9px;
     font-weight: 700;
+    border-radius: 25px;
+    background-color: rgb(245, 212, 104);
 }
+.btn:hover{
+    padding:11px 11px;
+    border:3px solid black;
+    font-weight: 800;
+} 
 
 .second{
     background-image: url(home_page_doctor.jpg);
     background-repeat: no-repeat;
+    background-position: center;
    
-} */
+} 
+                       /* *********** section 1 styling end********** */
+                       /* *********** section 2 styling starts from here********* */
+
+.third{
+
+height: 100%;
+width: 100%;
+}
 
 
-/* @media (max-width:768px){
+
+
+ @media (max-width:768px){
     #navbar{
         position:absolute;
     }
-} */
+}
 
