@@ -4,6 +4,11 @@
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
 
                               /* css variables */
 :root{
@@ -78,8 +83,6 @@
 #navbar i{
     font-size: 20px;
 }
-
-
                                       /* home section styling starts from here */
 
                                       /*  section 1 */
@@ -87,18 +90,35 @@
 #home{
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;  
 }
+
+#home div .span1{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgba(5, 145, 28, 0.918);
+    font-weight: 850;
+}
+#home div .span2{
+    margin-left: 2px;
+    font-size: 30px;
+    color: rgb(247, 247, 21);
+    font-weight: 850;
+}
+
 .first{
     height:550px;
     width: 550px;
     align-items: center;
-    margin-left: 60px;
+    /* margin-left: 40px; */
     position: relative;
     padding: left px;
     margin-top: 50px;
     
+}
+.first p{
+    margin-left: 40px;
 }
 
 .second{
@@ -111,10 +131,11 @@
 
 .underline{
     height: 3px;
-    width: 455px;
+    width: 490px;
     background-color: black;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    margin-left: 46px;
     border-radius: 45px;}
 
 .btn{
@@ -122,6 +143,7 @@
     font-weight: 700;
     border-radius: 25px;
     background-color: rgb(245, 212, 104);
+    margin-left: 45px;
 }
 .btn:hover{
     padding:11px 11px;
@@ -136,20 +158,105 @@
    
 } 
                        /* *********** section 1 styling end********** */
-                       /* *********** section 2 styling starts from here********* */
+                       /* ----------page2 styling start---------------- */
+#page2{
+    height:100vh;
+    width:100vw ; 
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: white;
+}
+#page2 h1{
+    font-size:35px;
 
-.third{
+}
 
-height: 100%;
-width: 100%;
+#page2 .img{
+    height:512px;
+    width: 550px;
+    background-image: url(left\ side\ image.webp);
+    background-size: cover;
+    background-position: center;
+
+}                       
+#page2 .inner{
+    height: 512px; 
+    width: 550px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(252, 251, 253); */
+}
+#page2 .inner1{
+    height: 129px;
+    width: 129px;
+    border-radius: 50%;
+    background-color: rgb(60, 204, 214);
+    border: 2px dashed white;
+    margin: 5px;
+}
+#page2 .inner2{
+    height: 129px;
+    width: 129px;
+    border-radius: 50%;
+    background-color: rgb(60, 204, 214);
+    border: 2px dashed white;
+    margin: 5px;
+}
+#page2 .inner3{
+    height: 129px;
+    width: 129px;
+    border-radius: 50%;
+    background-color: rgb(60, 204, 214);
+    border: 2px dashed white;
+    margin: 5px;
+}#page2 .inner4{
+    height: 129px;
+    width: 129px;
+    border-radius: 50%;
+    background-color: rgb(60, 204, 214);
+    border: 2px dashed white;
+    margin: 5px;
+}
+                      /* ---------Page2 styling end here----------- */
+                         
+                       /* *********** page3 styling starts from here********* */
+
+.four{
+height: 80%;
+width: 80%;
+display: flex;
+align-self: center;
+justify-content: center;
+margin-left: 100px;
+}
+
+ h1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.treatments{
+    height: 4px;
+    width: 660px;
+    background-color: black;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 215px;
+    
+}
+.spann{
+    font-size: 30px;
+    font-weight: 400px;
 }
 
 
 
 
- @media (max-width:768px){
+ /* @media (max-width:768px){
     #navbar{
         position:absolute;
     }
 }
-
+ */
