@@ -19,16 +19,10 @@ body{
 #navbar{
     display: flex;
     align-items: center;
-
 }
 
 
                              /* navigation bar: logo and image */
-#logo{
-
-     /* margin:5px 20px; */
-}
-
 
 #logo img{
     height: 70px;
@@ -156,70 +150,81 @@ body{
     background-repeat: no-repeat;
     background-position: center;
    
-} 
+}
+ 
                        /* *********** section 1 styling end********** */
                        /* ----------page2 styling start---------------- */
-#page2{
+ 
+                   
+.about_u{
+    height: 4px;
+    width: 90px;
+    background-color: grey;
+    margin-left: 500px;
+}
+
+
+.page2{
     height:100vh;
     width:100vw ; 
-    /* border: 2px solid black; */
     display: flex;
     background-color: white;
 }
-#page2 h1{
+.page2 h1{
     font-size:35px;
 
 }
 
-#page2 .img{
+.page2 .img{
     height:512px;
-    width: 550px;
+    width: 400px;
     background-image: url(left\ side\ image.webp);
     background-size: cover;
     background-position: center;
-
-}                       
-#page2 .inner{
-    height: 512px; 
-    width: 550px;
+}          
+.image{
+    height: 25px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page2 .inner{
+    height: auto; 
+    width: 750px;
     display: flex;
     align-items: center;
-    /* background-color: rgb(252, 251, 253); */
+    background-color: rgb(252, 251, 253);
 }
-#page2 .inner1{
-    height: 129px;
-    width: 129px;
-    border-radius: 50%;
+.page2 .inner1{
+    height: 280px;
+    width: 195px;
+    border-radius: 10%;
+    border: 2px solid aquamarine;
     background-color: rgb(60, 204, 214);
-    border: 2px dashed white;
     margin: 5px;
 }
-#page2 .inner2{
-    height: 129px;
-    width: 129px;
-    border-radius: 50%;
+.page2 .inner2{
+    height: 280px;
+    width: 195px;
+    border-radius: 10%;
+    border: 2px solid aquamarine;
     background-color: rgb(60, 204, 214);
-    border: 2px dashed white;
-    margin: 5px;
+    margin: 5px; 
 }
-#page2 .inner3{
-    height: 129px;
-    width: 129px;
-    border-radius: 50%;
+.page2 .inner3{
+    height: 280px;
+    width: 195px;
+    border-radius: 10%;
+    border: 2px solid aquamarine;
     background-color: rgb(60, 204, 214);
-    border: 2px dashed white;
     margin: 5px;
-}#page2 .inner4{
-    height: 129px;
-    width: 129px;
-    border-radius: 50%;
-    background-color: rgb(60, 204, 214);
-    border: 2px dashed white;
-    margin: 5px;
-}
+} 
+
                       /* ---------Page2 styling end here----------- */
                          
                        /* *********** page3 styling starts from here********* */
+
+
 
 .four{
 height: 80%;
