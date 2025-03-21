@@ -121,8 +121,6 @@ body{
     background: url(home_page_doctor.jpg);
 }
 
-
-
 .underline{
     height: 3px;
     width: 490px;
@@ -160,7 +158,8 @@ body{
     height: 4px;
     width: 90px;
     background-color: grey;
-    margin-left: 500px;
+    margin-left: 570px;
+    border-radius: 30px;
 }
 
 
@@ -202,6 +201,7 @@ body{
     border: 2px solid aquamarine;
     background-color: rgb(60, 204, 214);
     margin: 5px;
+    padding: 5px;
 }
 .page2 .inner2{
     height: 280px;
@@ -210,6 +210,7 @@ body{
     border: 2px solid aquamarine;
     background-color: rgb(60, 204, 214);
     margin: 5px; 
+    padding: 5px;
 }
 .page2 .inner3{
     height: 280px;
@@ -218,6 +219,8 @@ body{
     border: 2px solid aquamarine;
     background-color: rgb(60, 204, 214);
     margin: 5px;
+    margin-left: 4px;
+    padding: 5px;
 } 
 
                       /* ---------Page2 styling end here----------- */
@@ -257,6 +260,108 @@ margin-left: 100px;
 }
 
 
+/* footer styling */
+
+footer {
+    /* background-color: #f4f4f4; */
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    /* display: flex; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    margin-left: 40px;
+}
+
+.footer-section h3{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-section {
+    /* flex: 1; */
+    min-width: 250px;
+    padding: 20px;
+    line-height: 22px;
+    color: white;
+    font-weight: 800;
+
+    h1{
+        font-size: 30px;
+    }
+}
+
+.s2{
+    margin-top: 25px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:white;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Social Media Links */
+.social-links {
+    display: flex ;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+.social-links li {
+    list-style: none;
+    font-family: 18px;
+   
+    
+    i{
+        
+       padding-right: 8px;
+        color: rgb(252, 37, 37);
+        font-size: 30px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+}
+
+
+/* Payment Secured Section */
+.footer-security {
+    text-align: center;
+    margin-top: 40px;
+    color:white;
+    font-size: 14px;
+    img{
+        padding-top: 20px;
+    }
+}
+
+.l{
+    align-items: center;
+    justify-content: center;
+    margin-left:28%;
+}
+/* footer styling end here */
 
 
  /* @media (max-width:768px){
