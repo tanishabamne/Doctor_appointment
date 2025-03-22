@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Doctor Appointment</title>
+</head>
+<body onload="fetchData()">
+    
+    Search <input type="text" id="Searching" oninput="search()">
+
+    <table border="1" collspacing="20px" cellpadding="10px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>age</th>
+                <th>gender</th>
+                <th>adhar</th>
+                <th>treatmen</th>
+                <th>mobile</th>
+                <th>date</th>
+            </tr>
+        </thead>
+        <tbody id="show">
+
+        </tbody>
+
+    </table>
+    <div id="formdata">
+        
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
